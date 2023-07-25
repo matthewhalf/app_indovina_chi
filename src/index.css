@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+--green-vogue-50: #eafaff;
+--green-vogue-100: #cff4ff;
+--green-vogue-200: #aaefff;
+--green-vogue-300: #6fe8ff;
+--green-vogue-400: #2cd7ff;
+--green-vogue-500: #00b5ff;
+--green-vogue-600: #008cff;
+--green-vogue-700: #0072ff;
+--green-vogue-800: #0060e0;
+--green-vogue-900: #0055af;
+--green-vogue-950: #022d5a;
+}
+
+body {
+    background: var(--green-vogue-950);
+}
