@@ -40,13 +40,15 @@ const AvatarCard = () => {
           </div>
         </ReactCardFlip>
       ))}
-      <div className='absolute bottom-0 bg-slate-300 w-[100%] h-[13vh] flex justify-center bg-green-vogue-500 p-10 rounded-t-[70px]'>
+      <div className='absolute bottom-0 bg-slate-300 w-[100%] h-[8vh] flex justify-center bg-green-vogue-400 p-10 rounded-t-[40px]'>
+        <div className='absolute left-8 '>icon</div>
         {selectedAvatar && (
           <div className="selected-avatar text-center absolute bottom-5">
             <img src={selectedAvatar.image} alt={selectedAvatar.title} width={100} height={100} className='rounded-t-lg' />
             <h1 className='bg-green-vogue-100 rounded-b-lg text-green-vogue-900 p-1'>{selectedAvatar.title}</h1>
           </div>
         )}
+        <div className='absolute right-8'>icon</div>
       </div>
     </>
   )
