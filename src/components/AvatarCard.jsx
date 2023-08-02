@@ -33,8 +33,8 @@ const AvatarCard = () => {
           </div>
           <div>
             <div style={{
-              width: '101px',
-              height:'137px', 
+              width: '74px',
+              height:'106px', 
               backgroundImage: `url(${backCard})`,
               backgroundSize :'cover',
               backgroundPosition:'center',
@@ -45,10 +45,10 @@ const AvatarCard = () => {
           </div>
         </ReactCardFlip>
       ))}
-      <div className="btm-nav h-[10vh] gap-40 bg-green-vogue-400 rounded-t-[40px] p-10 shadow-xl" >
+      <div className="btm-nav gap-40 bg-green-vogue-400 rounded-t-[40px] shadow-xl p-10" >
         <button onClick={()=>location.reload()}>
-          <ReplayIcon fontSize="large" className=''/>
-          <span className="btm-nav-label">New</span>
+          <ReplayIcon fontSize="medium" className=''/>
+          <span className="btm-nav-label text-l">New</span>
         </button>
         {selectedAvatar && (
           <div className="text-center absolute bottom-10 bg-green-vogue-100">
@@ -56,7 +56,7 @@ const AvatarCard = () => {
             <h1 className='bg-green-vogue-100 rounded-b-lg text-green-vogue-900 p-1 w-[100%]'>{selectedAvatar.title}</h1>
           </div>
         )}
-        <button onClick={()=>window.my_modal_1.showModal()}><InfoIcon fontSize="large" />Info</button>
+        <button onClick={()=>window.my_modal_1.showModal()} className='text-l'><InfoIcon fontSize="medium" />Info</button>
           <dialog id="my_modal_1" className="modal ">
             <form method="dialog" className="modal-box bg-green-vogue-400">
               <h3 className="font-bold text-2xl text-[#0C101B]">Benvenuta Princess !!</h3>
