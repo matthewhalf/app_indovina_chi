@@ -8,6 +8,9 @@ import {
     avatar8,
     avatar9,
     avatar10,
+    avatar11,
+    avatar13,
+    avatar14
 
 } from "../assets";
 
@@ -45,8 +48,20 @@ const avatarDetails = [
         image: avatar9,
     },
     {
-        title: "Giungla",
+        title: "Mario",
         image: avatar10,
+    },
+    {
+        title: "Polpo",
+        image: avatar11,
+    },
+    {
+        title: "Ariel",
+        image: avatar13,
+    },
+    {
+        title: "Simba",
+        image: avatar14,
     }
 ];
 

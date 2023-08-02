@@ -7,7 +7,9 @@ import avatar7 from "./avatar7.png";
 import avatar8 from "./avatar8.png";
 import avatar9 from "./avatar9.png";
 import avatar10 from "./avatar10.png";
-
+import avatar11 from "./avatar11.png";
+import avatar13 from "./avatar13.png";
+import avatar14 from "./avatar14.png";
 
 
 export {
@@ -20,5 +22,7 @@ export {
     avatar8,
     avatar9,
     avatar10,
-
+    avatar11,
+    avatar13,
+    avatar14,
 }
