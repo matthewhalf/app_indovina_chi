@@ -10,6 +10,16 @@ import avatar10 from "./avatar10.png";
 import avatar11 from "./avatar11.png";
 import avatar13 from "./avatar13.png";
 import avatar14 from "./avatar14.png";
+import avatar20 from "./avatar20.png";
+import avatar21 from "./avatar21.png";
+import avatar22 from "./avatar22.png";
+import avatar23 from "./avatar23.png";
+import avatar24 from "./avatar24.png";
+import avatar25 from "./avatar25.png";
+import avatar26 from "./avatar26.png";
+import avatar27 from "./avatar27.png";
+import avatar28 from "./avatar28.png";
+
 
 
 export {
@@ -25,4 +35,15 @@ export {
     avatar11,
     avatar13,
     avatar14,
+    avatar20,
+    avatar21,
+    avatar22,
+    avatar23,
+    avatar24,
+    avatar25,
+    avatar26,
+    avatar27,
+    avatar28,
+
+    
 }

@@ -10,7 +10,17 @@ import {
     avatar10,
     avatar11,
     avatar13,
-    avatar14
+    avatar14,
+    avatar20,
+    avatar21,
+    avatar22,
+    avatar23,
+    avatar24,
+    avatar25,
+    avatar26,
+    avatar27,
+    avatar28,
+
 
 } from "../assets";
 
@@ -20,31 +30,27 @@ const avatarDetails = [
         image: avatar1,
     },
     {
-        title: "Filippo",
+        title: "Filippa",
         image: avatar2,
     },
     {
-        title: "Gianni",
+        title: "Gianna",
         image: avatar3,
     },
     {
-        title: "France",
+        title: "Simone",
         image: avatar5,
-    },
-    {
-        title: "Pippo",
-        image: avatar6,
     },
     {
         title: "Leo",
         image: avatar7,
     },
     {
-        title: "Ani",
+        title: "Emma",
         image: avatar8,
     },
     {
-        title: "Babba",
+        title: "Filippo",
         image: avatar9,
     },
     {
@@ -52,7 +58,7 @@ const avatarDetails = [
         image: avatar10,
     },
     {
-        title: "Polpo",
+        title: "Ken",
         image: avatar11,
     },
     {
@@ -60,8 +66,44 @@ const avatarDetails = [
         image: avatar13,
     },
     {
-        title: "Simba",
+        title: "Gian",
+        image: avatar27,
+    },
+    {
+        title: "Kubra",
         image: avatar14,
+    },
+    {
+        title: "Lisa",
+        image: avatar20,
+    },
+    {
+        title: "Laura",
+        image: avatar21,
+    },
+    {
+        title: "Moham",
+        image: avatar22,
+    },
+    {
+        title: "Fabio",
+        image: avatar23,
+    },
+    {
+        title: "Berto",
+        image: avatar24,
+    },
+    {
+        title: "Ying",
+        image: avatar25,
+    },
+    {
+        title: "Pippi",
+        image: avatar26,
+    },
+    {
+        title: "Lina",
+        image: avatar28,
     }
 ];
 
